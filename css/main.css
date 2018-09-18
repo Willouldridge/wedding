@@ -1,8 +1,13 @@
-body {
+html, body, {
     font-family: Helvetica, sans-serif;
-   min-width:1000px;        /* Suppose you want minimum width of 1000px */
-   width: auto !important;  /* Firefox will set width as auto */
-   width:1000px;            /* As IE6 ignores !important it will set width as 1000px; */
+    min-width:1000px;        /* Suppose you want minimum width of 1000px */
+    width: auto !important;  /* Firefox will set width as auto */
+    width:1000px;            /* As IE6 ignores !important it will set width as 1000px; */
+    position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
 }
 img {
     border: 1px solid #ddd;
