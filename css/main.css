@@ -1,10 +1,5 @@
 body {
     font-family: Helvetica, sans-serif;
-    /*position:fixed;
-    top:0;
-    bottom:0;
-    left:0;
-    right:0;*/
     min-width:1000px;        /* Suppose you want minimum width of 1000px */
     width: auto !important;  /* Firefox will set width as auto */
     width:1000px;            /* As IE6 ignores !important it will set width as 1000px; */
@@ -52,7 +47,9 @@ img {
     display: block; /* Change the display to block, for responsive reasons (see below) */
     color: white; /* White text color */
     text-align: center; /* Center the text */
-    padding: 14px 20px; /* Add some padding */
+    margin-left: 5%;
+    margin-right: 5%;
+    /*padding: 14px 20px; /* Add some padding */
     text-decoration: none; /* Remove underline */
 }
 
