@@ -104,8 +104,9 @@ img {
 
 .footer {
     padding: 20px; /* Some padding */
-    text-align: center; /* Center text*/
-    background: #ddd; /* Grey background */
+    color: white;
+    text-align: center;
+    background: #333; 
 }
 
 .container {
