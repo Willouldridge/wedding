@@ -119,12 +119,14 @@ img {
 }
 
 .container3 {
+    display: inline-block;
+    vertical-align: top;
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 2%;
     margin-bottom: 2%;
 }
 
-.container3 a.right {
+.container4 {
     float: right;
 }
