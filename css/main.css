@@ -125,6 +125,10 @@ img {
     margin-bottom: 2%;
 }
 
+.container2 a {
+    float: center;
+}
+
 .container3 {
     display: inline-block;
     vertical-align: top;
