@@ -6,7 +6,7 @@ body {
 }
 @media screen and (max-width: 700px) {
     body {
-        transform: scale(0.5)
+        transform: scale(0.7) translate(-22%, -22%);
     }
 
 }
@@ -45,7 +45,7 @@ img {
 /* Style the top navigation bar */
 .navbar {
     overflow: hidden; /* Hide overflow */
-    background-color: #9957ff; /* Dark background color */
+    background-color: #1051ba; /* Dark background color */
 }
 
 /* Style the navigation bar links */
