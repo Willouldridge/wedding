@@ -21,27 +21,36 @@
   <a href="#">RSVP</a>
   <a href="hotels.html">Where to stay</a>
   <a href="travel.html">Travel</a>
-  <a href="venue.html#">The Venue</a>
+  <a href="on_the_day.html">On the day</a>
   <a href="belfast.html">Things to do in Belfast</a>
   <a href="wedding.html" class="right">Home</a>
 </div>
     
 <body>
-    <div>
+    <div class="container">
+        <p style="text-align:center;">Please RSVP via the form below or by post to 21 Broughton Gardens, Belfast, BT6 0BB.</p> 
+        <p style="text-align:center;">Please fill in the form individaully for each guest. </p>
+
       <form action="https://formspree.io/william.ouldridge@hotmail.com" method="POST" class="form-style-1">
-        First name:<br>
-        <input type="text" name="firstname"><br>
-        Last name:<br>
-        <input type="text" name="lastname"><br>
-        <input type="radio" name="attending" value="yes" checked> I will be attending<br>
-        <input type="radio" name="attending" value="no"> I can't make it<br>
-        <input type="checkbox" name="coach_out"> Coach to hotel<br>
-        <input type="checkbox" name="coach_back"> Coach to Belfast<br>
-        <input type="checkbox" name="vegetarian"> I would like the vegetarian option<br>
-        <input type="checkbox" name="vegan"> I would like the vegan option<br>    
-        <input type="checkbox" name="gluten_free"> I would like a gluten free option<br>    
-        Any other dietary requirements:<br>
+          <b>Full name:</b><br>
+        <input type="text" name="name"><br>
+        <input type="radio" name="attending" value="yes" checked> will be able to attend<br>
+        <input type="radio" name="attending" value="no"> will not be able to attend<br>
+        <br>
+        <b>Dietary Requirements:</b><br>
+        <input type="checkbox" name="none"> None<br>
+        <input type="checkbox" name="vegetarian"> Vegetarian<br>
+        <input type="checkbox" name="vegan"> Vegan<br>    
+        <input type="checkbox" name="gluten_free"> Gluten Free<br>
+        Other, please specify:<br>
         <textarea name="other_reqs"></textarea><br>
+        <br>
+        <b>Transport:</b><br>
+        In order to gauge numbers for the hired coach, please indicate below if you would require transport:<br>
+        <input type="checkbox" name="coach_out"> From St. Thomas' Church, Belfast to Ballygally Castle Hotel<br>
+        <input type="checkbox" name="coach_back"> From Ballygally to centre of Belfast at Midnight<br>
+        <input type="checkbox" name="no_coach"> I will arrange my own transport<br>
+        <br>
         <input type="submit" value="submit">
       </form>
     </div>
